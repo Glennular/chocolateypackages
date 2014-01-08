@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mongoose</id>
+    <version>5.0</version>
+    <title>Mongoose Windows Executable (lua, sqlite, ssl)</title>
+    <authors>Cesanta Software Limited</authors>
+    <owners>Cesanta Software Limited</owners>
+    <licenseUrl>https://github.com/cesanta/mongoose/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/cesanta/mongoose</projectUrl>
+    <iconUrl>https://raw.github.com/cesanta/mongoose/master/build/mongoose_64x64@2x.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Mongoose is easy to use, powerful, embeddable web server.
+Licensing: Mongoose is released under GNU GPL v.2. Businesses have an option to get non-restrictive, royalty-free commercial license and professional support from Cesanta Software.</description>
+    <summary>Mongoose is easy to use, powerful, embeddable web server.</summary>
+    <tags>webserver</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
