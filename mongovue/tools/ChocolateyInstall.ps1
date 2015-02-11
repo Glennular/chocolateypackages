@@ -6,7 +6,7 @@
   }
   else {
 
-    $url = 'http://www.mongovue.com/Installer-1.6.6.zip'
+    $url = 'http://www.mongovue.com/Installer-1.6.9.zip'
     $destination = Join-Path $Env:Temp 'MongoVue'
     $msiPath = Join-Path $destination 'Installer.msi'
 

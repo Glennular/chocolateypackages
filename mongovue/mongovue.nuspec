@@ -2,15 +2,25 @@
 <package >
   <metadata>
     <id>MongoVUE</id>
-    <version>1.6.6</version>
+    <version>1.6.9</version>
     <authors>MongoVUE</authors>
     <owners>glennular</owners>
     <projectUrl>http://www.mongovue.com/</projectUrl>
     <iconUrl>https://raw.github.com/Glennular/chocolateypackages/master/mongovue/MongoVUE.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>MongoVUE is an innovative MongoDB desktop application for Windows OS that gives you an elegant and highly usable GUI interface to work with MongoDB. Now there is one less worry in managing your web-scale data.</description>
-    <releaseNotes>Initial Release</releaseNotes>
-    <copyright>Copyright 2012-2014</copyright>
+    <releaseNotes>
+See all - http://www.mongovue.com/downloads/
+
+What's new in version 1.6.9? (Jan 20, 2014)
+- An additional driver for PostgreSql is bundled to improve RDBMS Import
+
+What's new in version 1.6.8? (Jan 19, 2014)
+- FIX: Postgres SQL Import failed due to missing bundled resource
+
+What's new in version 1.6.7? (Jan 16, 2014)
+-You can import json text file (say, generated from mongoexport utility) to import multiple documents into a collection</releaseNotes>
+    <copyright>Copyright 2012-2015</copyright>
     <tags>mongodb mongovue mongo</tags>
   </metadata>
 </package>
