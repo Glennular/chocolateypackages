@@ -11,7 +11,7 @@
     $msiPath = Join-Path $destination 'Installer.msi'
 
     Install-ChocolateyZipPackage $package -url $url -unzipLocation $destination
-    Install-ChocolateyPackage $package 'msi' '/quiet' $msiPath
+    Install-ChocolateyInstallPackage $package 'msi' '/quiet' $msiPath
 
     Remove-Item $destination -Recurse
   }
