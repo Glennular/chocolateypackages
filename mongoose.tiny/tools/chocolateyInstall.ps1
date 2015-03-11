@@ -1,6 +1,6 @@
 ﻿try { 
   $packageName = 'mongoose.tiny' 
-  $url = 'https://mongoose.googlecode.com/files/mongoose-5.0.exe'
+  $url = 'http://cesanta.com/cgi-bin/api.cgi?act=dl&id=O0ZX1GPGIE7RVAH1&os=win'
   $scriptPath = $(Split-Path -Parent $MyInvocation.MyCommand.Definition)
   $mongoosePath = Join-Path $scriptPath 'mongoose.tiny.exe'
   
